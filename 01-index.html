@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <h3>1. Fetch API GET request - Vitsi API rajapinnasta</h3>
+
+    <div class="show_joke"></div>
+
+    <button class="chuck">Hae vitsi</button>
+
+    <button class="toinen">Hae vitsin toinen nappula</button>
+
+    <h3>Tehtävä 2 - Kissakuvat</h3>
+
+    <div id="cards"></div>
+
+    <button class="pics">Hae kissakuvat</button>
+
+    <h3>3. Flexboxilla tehty kortti - Staattinen tieto</h3>
+
+    <section class="card-area">
+      <!-- yksittäinen kortti -->
+      <div class="card">
+        <!-- vasen puoli jossa kuva -->
+        <div class="card-img" id="trigger">
+          <img src="/img/train.jpg" width="136" alt="Gym" />
+        </div>
+
+        <!-- oikea puoli jossa päiväkirjamerkintä-->
+        <div class="card-diary">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo in
+            temporibus fugiat, neque, eos voluptatum veritatis ratione ullam
+            quam dolorum voluptates totam? Itaque iusto ut corrupti nesciunt
+            officia eius fuga.
+          </p>
+          <!-- tänne myös flexbox rakenne -->
+        </div>
+      </div>
+      <div class="card">
+        <!-- vasen puoli jossa kuva -->
+        <div class="card-img" id="trigger">
+          <img src="img/train.jpg" width="136" alt="Gym" />
+        </div>
+
+        <!-- oikea puoli jossa päiväkirjamerkintä-->
+        <div class="card-diary">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, cum?
+            Ducimus, sed at mollitia modi quia, tenetur natus aliquam quibusdam
+            quas, aut corporis fugiat saepe quisquam? Atque incidunt tempora
+            veritatis.
+          </p>
+
+          <!-- tänne myös flexbox rakenne -->
+        </div>
+      </div>
+    </section>
+    <h3>Tehtävä 4. Flexboxilla tehty kortti + Fetch + APISTA HAETUT ELEMENTIT</h3>
+    <section id="diary-section">
+      <button class="diary">Hae päiväkirjamerkintä</button>
+    </section>
+    <div></div>
+
+    <script type="module" src="/main.js"></script>
+    <!-- <script type="module" src="/test.js"></script> -->
+    <!-- Lisää tehtävät main.js tiedosto -->
+  </body>
+</html>
